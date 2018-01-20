@@ -1,0 +1,9 @@
+.notes{
+    margin-top: 20px;
+}
+.ui.items>.item>.meta{
+    width: 88px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+    color: rgba(0,0,0,0.4);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>我的第一个网页</title>
+		<link rel="stylesheet" href="semantic/semantic.min.css">
+		<style type="text/css">
+			#aaa:hover {
+				background-color: #507bb2;
+				color: #fff;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="app"  >
+			
+			
+
+				<div class="ui three buttons">
+
+				<router-link to="/name1" id="aaa"    active-class="active"   class="ui button">首页</router-link>
+				<router-link id="aaa" to="/events1/" active-class="active" class="ui button">新闻</router-link>
+				<router-link id="aaa" to="/events2/" active-class="active" class="ui button">视频</router-link>
+
+</div>
+				
+				
+					<router-view>
+						<div id="div1">文章列表</div>
+						
+					</router-view>
+				
+			
+		</div>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/vue-router.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/001.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>
